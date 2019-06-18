@@ -186,7 +186,7 @@ class LINELiff(object):
 if __name__ == '__main__':
     boom = LINELiff()
     # Rin - Connect! LINE OAuth Platform
-    ssc = boom.login('1588295307','6aac06ec8ec6cbcf95973a62368d08d8')
+    ssc = boom.login('CHANNEL_ID','CHANNEL_SECRET')
     print(ssc)
     allx = boom.createLiffApp('full', 'https://echobots.net/')
     allx = boom.getLiffApp()
