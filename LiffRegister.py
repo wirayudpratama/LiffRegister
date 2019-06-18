@@ -188,6 +188,6 @@ if __name__ == '__main__':
     # Rin - Connect! LINE OAuth Platform
     ssc = boom.login('CHANNEL_ID','CHANNEL_SECRET')
     print(ssc)
-    allx = boom.createLiffApp('full', 'https://echobots.net/')
+    allx = boom.createLiffApp('full', 'https://yudhaa.herokuapp.com/')
     allx = boom.getLiffApp()
     print(allx)
